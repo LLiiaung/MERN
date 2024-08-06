@@ -1,0 +1,8 @@
+ul{
+    background-color: rgb(34, 55, 215);
+}
+li{
+    display: inline;
+    margin: 10px;
+    color: white;
+}

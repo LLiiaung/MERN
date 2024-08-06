@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR OF Loop</title>
+</head>
+<body>
+    <script>
+        let num = [1,2,3,4]
+        for (let i = 0; i < num.length; i++) {
+            console.log(num[i])
+        }
+
+        for (let i of num) {
+            console.log(i)
+        }
+        let laguages = ['c++','java','python']
+        for (let i = 0; i < laguages.length; i++) {
+            console.log(laguages[i])
+        }
+
+        for (let obj of laguages) {
+            console.log(obj)
+        }
+    </script>
+</body>
+</html>
